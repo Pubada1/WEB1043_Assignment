@@ -1,0 +1,71 @@
+.container {
+  display: flex;
+  padding: 8px;
+  background-color: #f5f5f5;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.side-menu ul {
+  list-style-type: none;
+  background-color: #f5f5f5;
+  font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.side-menu ul li {
+  margin: 0 10px;
+}
+
+.side-menu ul li a {
+  background-color: #f5f5f5;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  padding: 10px;
+  position: relative;
+  transition: color 0.3s;
+}
+
+.side-menu ul li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease-in-out;
+}
+
+.side-menu ul li a:hover::after {
+  width: 100%;
+}
+
+.ic1 {
+  background-color: #f5f5f5;
+  font-size: 25px;
+  display: flex;
+  margin-right: 50px;
+  gap: 15px;
+}
+
+.ic1 a {
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+.ic1 i {
+  background-color: #f5f5f5;
+}
+
+.ic1 .TongSL {
+  font-family: "Helvetica Now Text", Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+  margin-top: -18px;
+}

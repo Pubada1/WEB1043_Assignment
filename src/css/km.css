@@ -1,0 +1,67 @@
+body {
+    font-family: 'Helvetica Now Text', Helvetica, Arial, sans-serif;
+}
+
+.promotion-setup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.promotion-setup label {
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.promotion-setup input {
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.promotion-setup button {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.promotion-setup button:hover {
+    background-color: #555;
+}
+
+.pTGKM {
+    background-color: #fefeff;
+    border: 1px solid #333; 
+    border-radius: 8px; 
+    padding: 20px; 
+    margin: 30px ;
+    text-align: center; 
+    font-family: 'Arial', sans-serif;
+  }
+  
+.pTGKM div {
+    margin: 10px 0; 
+    background-color: #fefeff;
+}
+
+.pTGKM .ngay, .pTGKM .gio, .pTGKM .phut, .pTGKM .giay {
+    gap: 5px;
+    font-size: 18px; 
+    color: #333; 
+    font-weight: bold; 
+    padding: 10px; 
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    display: inline-block; 
+    margin: 5px;
+    background-color: #fff;
+}
